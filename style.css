@@ -111,3 +111,22 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.conteudo-tutoriais {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 24px;
+}
+
+.tutorial {
+  width: calc(33% - 48px);
+  padding: 16px; 
+}
+
+.grupo-titulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFF2E7;
+}
