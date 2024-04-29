@@ -16,8 +16,11 @@
         <nav class="cabecalho-menu">
             <a class="cabecalho-menu-item" href="mailto:monitoria.bancodedados.camboriu@ifc.edu.br">Contato</a>
             <a class="cabecalho-menu-item" href="https://meet.google.com/ehu-ovqd-swp">Sala de Reunião</a>
-            <a class="cabecalho-menu-item" href="https://docs.google.com/document/d/1vhNBfrA-xDTZHS9EfKdtC2IDS4U9YRy1SV30O2xOl34/edit?usp=sharing">Horários</a>
-            <a class="cabecalho-menu-item" href="https://drive.google.com/drive/folders/1m-DNodYPnsIuSDMR6iYrTZEK1izzGFPZ?usp=sharing">Menu de Tutorias</a>
+            <a class="cabecalho-menu-item" href="javascript:void(0);" onclick="openHorario()">Horários</a>
+            <a class="cabecalho-menu-item" href="tutoriais.html">Tutoriais</a>
+            <a class="cabecalho-menu-item" href="https://www.postgresql.org/download/">PostgreSQL</a>
+            <a class="cabecalho-menu-item" href="https://github.com/gbd-ufsc/brModelo-Official-Versions/tree/master/brModelo_v3">Br Modelo</a>
+
         </nav>
     </header>
 
@@ -42,5 +45,11 @@
         <img class="rodape-imagem" src="monitoriabd.svg" alt="logo bd">
     </footer>
 </body>
+
+<script>
+    function openHorario() {
+        window.open("https://calendar.google.com/calendar/embed?src=monitoria.bancodedados.camboriu%40ifc.edu.br&ctz=America%2FSao_Paulo", "_blank", "width=800,height=600,scrollbars=yes,status=yes,resizable=yes");
+    }
+</script>
 
 </html>
